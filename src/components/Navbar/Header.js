@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const Header = () => {
   return (
-    <Wrapper>
+    <NavWrapper>
       {/* <!-- ======= Header ======= --> */}
       <header id="header" className="fixed-top">
         <div className="container d-flex align-items-center">
@@ -51,12 +51,12 @@ const Header = () => {
         </button>
       </header>
       {/* <!-- End Header --> */}
-    </Wrapper>
+    </NavWrapper>
   )
 }
 export default Header
 
-const Wrapper = styled.div`
+const NavWrapper = styled.div`
   #header {
     background: rgba(12, 11, 9, 0.6);
     border-bottom: 1px solid rgba(12, 11, 9, 0.6);
