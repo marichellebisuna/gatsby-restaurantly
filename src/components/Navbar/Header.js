@@ -3,55 +3,57 @@ import styled from "styled-components"
 
 const Header = () => {
   return (
-    <NavWrapper>
-      {/* <!-- ======= Header ======= --> */}
-      <header id="header" className="fixed-top">
-        <div className="container d-flex align-items-center">
-          <h1 className="logo mr-auto">
-            <a href="index.html">Restaurantly</a>
-          </h1>
+    <div>
+      <NavWrapper>
+        {/* <!-- ======= Header ======= --> */}
+        <header id="header" className="fixed-top">
+          <div className="container d-flex align-items-center">
+            <h1 className="logo mr-auto">
+              <a href="index.html">Restaurantly</a>
+            </h1>
 
-          {/* <a href="index.html" className="logo mr-auto"><img src="assets/img/logo.png" alt="" className="img-fluid"></a> */}
+            {/* <a href="index.html" className="logo mr-auto"><img src="assets/img/logo.png" alt="" className="img-fluid"></a> */}
 
-          <nav className="nav-menu d-none d-lg-block">
-            <ul>
-              <li className="active">
-                <a href="index.html">Home</a>
-              </li>
-              <li>
-                <a href="#about">About</a>
-              </li>
-              <li>
-                <a href="#menu">Menu</a>
-              </li>
-              <li>
-                <a href="#specials">Specials</a>
-              </li>
-              <li>
-                <a href="#events">Events</a>
-              </li>
-              <li>
-                <a href="#gallery">Gallery</a>
-              </li>
-              <li>
-                <a href="#chefs">Chefs</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
-              </li>
-              <li className="book-a-table text-center">
-                <a href="#book-a-table">Book a table</a>
-              </li>
-            </ul>
-          </nav>
-          {/* <!-- .nav-menu --> */}
-        </div>
-        <button type="button" class="mobile-nav-toggle d-lg-none">
-          <i class="icofont-navigation-menu"></i>
-        </button>
-      </header>
-      {/* <!-- End Header --> */}
-    </NavWrapper>
+            <nav className="nav-menu d-none d-lg-block">
+              <ul>
+                <li className="active">
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#menu">Menu</a>
+                </li>
+                <li>
+                  <a href="#specials">Specials</a>
+                </li>
+                <li>
+                  <a href="#events">Events</a>
+                </li>
+                <li>
+                  <a href="#gallery">Gallery</a>
+                </li>
+                <li>
+                  <a href="#chefs">Chefs</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li className="book-a-table text-center">
+                  <a href="#book-a-table">Book a table</a>
+                </li>
+              </ul>
+            </nav>
+            {/* <!-- .nav-menu --> */}
+          </div>
+          <button type="button" class="mobile-nav-toggle d-lg-none">
+            <i class="icofont-navigation-menu"></i>
+          </button>
+        </header>
+        {/* <!-- End Header --> */}
+      </NavWrapper>
+    </div>
   )
 }
 export default Header
